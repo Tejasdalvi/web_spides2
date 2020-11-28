@@ -1,0 +1,63 @@
+html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(0, 0, 0);
+        background-image: url(/prac/Images/nature.jpg);
+        color: rgb(243, 243, 243);
+        margin: 0%;
+        padding: 0%;
+    }
+    .box{
+        /* border: 1px solid yellow; */
+        border-radius: 5px;
+        display: inline-block;
+        padding: 10px;
+        margin: 190px 550px;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0px 0px 20px 3px rgb(0, 0, 0);
+        cursor: pointer;
+        
+
+    }
+    .box input{
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        width: 200px;
+    }
+    #btn{
+        padding: 7px;
+        border: 1px solid yellow;
+        background-color: rgb(253, 237, 0);
+        border-radius: 20px;
+        display: block;
+        margin: 5px auto;
+    }
+    #btn:hover{
+        background-color: rgb(0, 0, 0);
+        color: yellow;
+    }
+    .box h2{
+        text-align: center;
+        margin: 5px;
+        font-size: 30px;
+        color: turquoise;
+    }
+</style>
+<body>
+    <div class="box">
+        <h2>LOG IN</h2>
+        <hr>
+        <form action="./portfolio.html">
+            <div><input type="text" name="Name" id="Name" placeholder="USERNAME"></div>
+            <div><input type="password" name="pass" id="pass" placeholder="PASSWORD"></div>
+            <button id="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
